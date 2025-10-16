@@ -6,15 +6,15 @@
   margin: 0;
 
   &__star {
-    width: 16px;
-    height: 16px;
+    width: $star-size;
+    height: $star-size;
     background-image: url('../images/star.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 4px;
+    margin-right: $star-gap;
     display: inline-block;
     &:last-child {
-      margin-right: 17px;
+      margin-right: $star-last-gap;
     }
   }
 
